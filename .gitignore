@@ -1,0 +1,204 @@
+# ===========================
+# Python
+# ===========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+# Translations
+*.mo
+*.pot
+
+# Type checker caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# ===========================
+# Virtual environments
+# ===========================
+.venv/
+venv/
+ENV/
+env/
+.env.*/
+
+# ===========================
+# Secrets & environment files
+# ===========================
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets.json
+credentials.json
+service-account*.json
+
+# ===========================
+# IDE & editors
+# ===========================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+tags
+
+# Emacs
+\#*\#
+.#*
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ===========================
+# Windows
+# ===========================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===========================
+# Linux
+# ===========================
+*~
+.directory
+
+# ===========================
+# Logs & databases
+# ===========================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ===========================
+# Archives
+# ===========================
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# ===========================
+# ML models & large data files
+# ===========================
+*.bin
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.mlmodel
+*.mlpackage/
+
+# ===========================
+# Audio (project-specific)
+# ===========================
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# ===========================
+# Misc
+# ===========================
+.cache/
+.parcel-cache/
+.sass-cache/
+tmp/
+temp/
+*.bak
+*.tmp
+*.orig
